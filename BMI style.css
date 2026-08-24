@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    background: linear-gradient(135deg, #fff7ad, #ffd6e7);
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 25px;
+    text-align: center;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    color: #ff6b6b;
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.container > p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+
+    font-size: 16px;
+    color: #333;
+
+    outline: none;
+    background: #fffdf5;
+
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #ffb347;
+    background: #ffffff;
+    box-shadow: 0 0 8px rgba(255, 179, 71, 0.25);
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+
+button {
+    width: 100%;
+    padding: 15px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 15px rgba(255, 154, 158, 0.3);
+}
+
+#result {
+    margin-top: 25px;
+    padding: 25px;
+
+    background: linear-gradient(135deg, #e0f7fa, #fff9c4);
+
+    border-radius: 18px;
+
+    border: 2px solid #f1f1f1;
+}
+
+#result h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#bmi-value {
+    font-size: 48px;
+    font-weight: bold;
+
+    color: #ff7043;
+
+    margin-bottom: 10px;
+}
+
+#bmi-category {
+    font-size: 19px;
+    font-weight: bold;
+    color: #43a047;
+}
